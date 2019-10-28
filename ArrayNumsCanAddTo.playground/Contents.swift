@@ -1,21 +1,29 @@
-//: A UIKit based Playground for presenting user interface
+//typealias Num = AdditiveArithmetic & Hashable
+
+
+func array(_ array: [Int], contains number: Int) -> Bool {
+  if array.isEmpty {
+    return false
+  }
   
-import UIKit
-import PlaygroundSupport
-
-class MyViewController : UIViewController {
-    override func loadView() {
-        let view = UIView()
-        view.backgroundColor = .white
-
-        let label = UILabel()
-        label.frame = CGRect(x: 150, y: 200, width: 200, height: 20)
-        label.text = "Hello World!"
-        label.textColor = .black
-        
-        view.addSubview(label)
-        self.view = view
+  var setOfNumbers = Set(array)
+  var containsNumber = false
+  
+  // Convert to set and brute force through!
+  for currentNum in setOfNumbers {
+    let twin = number - currentNum
+    setOfNumbers.remove(currentNum)
+    if setOfNumbers.contains(twin) {
+      containsNumber = true
+      break
     }
+  }
+  
+  return containsNumber
 }
-// Present the view controller in the Live View window
-PlaygroundPage.current.liveView = MyViewController()
+
+let array1 = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]
+let val = 32
+
+
+dump(array(array1, contains: val))
