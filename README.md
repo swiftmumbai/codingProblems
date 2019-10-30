@@ -5,6 +5,15 @@ Solve Coding Interview Problems using Swift
 Ready for First Question?
 Solve it & raise a Pull Request.
 
+---
+
+#2 This problem was asked by Microsoft.
+
+Describe and give an example of each of the following types of polymorphism:
+
+- Ad-hoc polymorphism
+- Parametric polymorphism
+- Subtype polymorphism
 
 ---
 
