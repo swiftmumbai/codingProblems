@@ -5,6 +5,15 @@ Solve Coding Interview Problems using Swift
 Ready for First Question?
 Solve it & raise a Pull Request.
 
+
+---
+
+#3 This problem was asked by Amazon.
+
+Given n numbers, find the greatest common denominator between them.
+
+For example, given the numbers [42, 56, 14], return 14.
+
 ---
 
 #2 This problem was asked by Microsoft.
