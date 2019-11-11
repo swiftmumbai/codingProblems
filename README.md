@@ -1,10 +1,22 @@
 # Coding Problems
 
+[![GitHub commit activity](https://img.shields.io/github/commit-activity/w/swiftmumbai/codingProblems)](https://github.com/swiftmumbai/chatkit/pulls)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](https://github.com/swiftmumbai/codingProblems/projects/1)
+
 Solve Coding Interview Problems using Swift
 
-Ready for First Question?
-Solve it & raise a Pull Request.
+Ready for First Question? 
+Solve it & raise a Pull Request! 🎉
 
+---
+
+#5 This problem was asked by Facebook.
+
+Given a circular array, compute its maximum subarray sum in O(n) time. A subarray can be empty, and in this case the sum is 0.
+
+For example, given [8, -1, 3, 4], return 15 as we choose the numbers 3, 4, and 8 where the 8 is obtained from wrapping around.
+
+Given [-4, 5, 1, 0], return 6 as we choose the numbers 5 and 1.
 
 ---
 
