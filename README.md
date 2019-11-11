@@ -1,7 +1,7 @@
 # Coding Problems
 
 [![GitHub commit activity](https://img.shields.io/github/commit-activity/w/swiftmumbai/codingProblems)](https://github.com/swiftmumbai/chatkit/pulls)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](https://github.com/swiftmumbai/codingProblems/projects/1)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](https://github.com/swiftmumbai/codingProblems/pulls)
 
 Solve Coding Interview Problems using Swift
 
