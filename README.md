@@ -10,6 +10,14 @@ Solve it & raise a Pull Request! 🎉
 
 ---
 
+#8 This problem was asked by Microsoft.
+
+Given an array of positive integers, divide the array into two subsets such that the difference between the sum of the subsets is as small as possible.
+
+For example, given [5, 10, 15, 20, 25], return the sets {10, 25} and {5, 15, 20}, which has a difference of 5, which is the smallest possible difference.
+
+---
+
 #7 This problem was asked by Affirm.
 
 Given a array of numbers representing the stock prices of a company in chronological order, write a function that calculates the maximum profit you could have made from buying and selling that stock. You're also given a number fee that represents a transaction fee for each buy and sell transaction.
