@@ -10,6 +10,20 @@ Solve it & raise a Pull Request! 🎉
 
 ---
 
+#10 This problem was asked by Apple.
+
+Given the root of a binary tree, find the most frequent subtree sum. The subtree sum of a node is the sum of all values under a node, including the node itself.
+
+For example, given the following tree:
+```
+  5
+ / \
+2  -5
+```
+Return 2 as it occurs twice: once as the left leaf, and once as the sum of 2 + 5 - 5.
+
+---
+
 #9 This problem was asked by Facebook.
 
 Suppose you are given two lists of n points, one list p1, p2, ..., pn on the line y = 0 and the other list q1, q2, ..., qn on the line y = 1. Imagine a set of n line segments connecting each point pi to qi. Write an algorithm to determine how many pairs of the line segments intersect.
