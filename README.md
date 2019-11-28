@@ -10,6 +10,12 @@ Solve it & raise a Pull Request! 🎉
 
 ---
 
+#15 This problem was asked by Dropbox.
+
+Given an undirected graph G, check whether it is bipartite. Recall that a graph is bipartite if its vertices can be divided into two independent sets, U and V, such that no edge connects vertices of the same set.
+
+---
+
 #14 This problem was asked by Twitter.
 
 A permutation can be specified by an array P, where P[i] represents the location of the element at i in the permutation. For example, [2, 1, 0] represents the permutation where elements at the index 0 and 2 are swapped.
