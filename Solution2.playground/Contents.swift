@@ -42,7 +42,6 @@ testAdHoc()
 
 // Implementing a Map on Result
 
-
 func map1<A, B, Error>(_ f: @escaping (A) -> B) -> (Result<A, Error>) -> Result<B, Error> {
     return { result in
         switch result {
@@ -51,7 +50,6 @@ func map1<A, B, Error>(_ f: @escaping (A) -> B) -> (Result<A, Error>) -> Result<
         case let .failure(error):
             return .failure(error)
         }
-        
     }
 }
 
@@ -126,9 +124,9 @@ extension ASPVideoPlayable {
     func playVideo(with options: VideoPlayerOptions) {
         player.play()
     }
+    
     func pauseVideo() -> VideoPlayerOptions {
         player.pause()
         return player.playbackOptions
     }
-    
 }
